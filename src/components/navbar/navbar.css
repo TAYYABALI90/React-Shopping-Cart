@@ -1,0 +1,208 @@
+.sale-tag {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    border-bottom: 1px solid #b4b4b4;
+}
+
+.sale-tag .left-content {
+    display: flex;
+    gap: 0.4rem;
+}
+
+.sale-tag .left-content h6 {
+    font-weight: 400;
+}
+
+.sale-tag .left-content h6:nth-child(2) {
+    color: red;
+}
+
+.sale-tag .right-content {
+    display: flex;
+    gap: 1rem;
+}
+
+.sale-tag .right-content .dropdown button {
+    background: none !important;
+    border: none;
+    outline: none;
+}
+
+.sale-tag .right-content .dropdown button span,
+.sale-tag .right-content .user-dropdown button span {
+    margin: 0.5rem;
+}
+
+.sale-tag .right-content .dropdown .dropdown-menu {
+    border: none;
+    transition: 0.5s ease-in-out;
+}
+
+.sale-tag .right-content .dropdown .dropdown-menu li {
+    width: 100% !important;
+    border: 1px solid #b4b4b4;
+    padding: 0.5rem;
+    border: 1px solid pink;
+    border-radius: 5%;
+}
+
+.sale-tag .right-content .dropdown .dropdown-menu li:nth-child(1) {
+    border-bottom: none;
+}
+
+.sale-tag .right-content .dropdown .dropdown-menu li:nth-child(2) {
+    border-top: none;
+}
+
+.sale-tag .right-content .dropdown .dropdown-menu li:nth-child(1) a:nth-child(1) {
+    border: 1px solid black;
+    transition: 0.6s ease;
+}
+
+.sale-tag .right-content .dropdown .dropdown-menu li:nth-child(1) a:nth-child(1):hover {
+    background-color: red;
+    color: #ffffff;
+    border: 1px solid red;
+}
+
+.sale-tag .right-content .dropdown .dropdown-menu li:nth-child(2) a:nth-child(1) {
+    border: 1px solid red;
+    transition: 0.6s ease;
+}
+
+.sale-tag .right-content .dropdown .dropdown-menu li:nth-child(2) a:nth-child(1):hover {
+    background-color: black;
+    color: #ffffff;
+    border: 1px solid black;
+}
+
+.sale-tag .right-content .user-dropdown .dropdown-menu li {
+    width: 100% !important;
+    padding: 0.2rem;
+    border: 1px solid pink;
+    border-radius: 5%;
+}
+
+.sale-tag .right-content .user-dropdown .dropdown-menu li:nth-child(1) a:nth-child(1) {
+    border: none;
+    transition: 0.5s ease;
+}
+
+.sale-tag .right-content .user-dropdown .dropdown-menu li:nth-child(2) a:nth-child(1) {
+    border: none;
+    transition: 0.5s ease;
+}
+
+.sale-tag .right-content .user-dropdown .dropdown-menu li:nth-child(1) a:nth-child(1):hover {
+    color: red;
+    background-color: transparent !important;
+    border: none;
+}
+
+.sale-tag .right-content .user-dropdown .dropdown-menu li:nth-child(2) a:nth-child(1):hover {
+    color: red;
+    background-color: transparent !important;
+    border: none;
+}
+
+.search-logo-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.search-logo-cart .left-content input {
+    padding: 0.7rem;
+    border: none;
+    outline: none;
+    background: #f7f7f7;
+}
+
+.search-logo-cart .left-content input::placeholder {
+    color: #acacac;
+}
+
+.search-logo-cart .left-content span {
+    padding: 0.7rem;
+    border: none;
+    outline: none;
+    background: #f7f7f7;
+    border-radius: 0%;
+    cursor: pointer;
+}
+
+.search-logo-cart .left-content span i {
+    color: #acacac;
+    transition: .5s ease;
+}
+
+.search-logo-cart .left-content span i:hover {
+    color: red;
+}
+
+.search-logo-cart .middle-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-logo-cart .middle-content img {
+    width: 20%;
+}
+
+.search-logo-cart .middle-content h4 {
+    font-size: 2rem;
+    margin-left: -3rem;
+    font-weight: 400;
+}
+
+.search-logo-cart .right-content {
+    display: flex;
+    margin: 1rem;
+    gap: 0.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+.search-logo-cart .right-content i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #f7f7f7;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    color: red;
+    font-size: 1.5rem;
+}
+
+.search-logo-cart .right-content .my-cart h6:nth-child(1) {
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.1rem;
+}
+
+.search-logo-cart .right-content .my-cart h6:nth-child(2) {
+    color: #acacac;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.navbar {
+    background-color: #000 !important;
+}
+
+.navbar ul li a {
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.navbar ul li a:hover {
+    transition: .5s ease;
+    color: red !important;
+}
